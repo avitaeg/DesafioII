@@ -1,11 +1,6 @@
-#include <iostream>
+#include "menu_principal.h"
 
-using namespace std;
-
-int main()
-{
-    cout << "Hello World!" << endl;
-    cout << "Estebanco esta ocupado"<< endl;
+int main() {
+    menu_principal(); // Llamada al menú principal
     return 0;
-
 }
